@@ -16,10 +16,18 @@ class MyApp extends StatelessWidget {
             child: Container(
                 color: Colors.lightBlue,
                 width: 150,
-                height: 50,
+                height: 150,
                 child: Text(
-                  "Hello world",
-                  maxLines: 2,
+                  "Saya Sedang Belajar Flutter Menggunakan vscode",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontStyle: FontStyle.italic,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20),
+                  maxLines: 3,
+                  overflow: TextOverflow.clip,
+                  softWrap: true,
                 ))),
       ),
     );

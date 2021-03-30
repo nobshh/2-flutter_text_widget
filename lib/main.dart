@@ -12,7 +12,15 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Aplikasi Pertama"),
         ),
-        body: Center(child: Text("Hello world")),
+        body: Center(
+            child: Container(
+                color: Colors.lightBlue,
+                width: 150,
+                height: 50,
+                child: Text(
+                  "Hello world",
+                  maxLines: 2,
+                ))),
       ),
     );
   }
